@@ -1,0 +1,76 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "temperatura",
+          "samples": [
+            "la temperatura del jardín ",
+            "cuál es la temperatura del jardín "
+          ]
+        },
+        {
+          "slots": [],
+          "name": "humedad",
+          "samples": [
+            "la humedad del jardín",
+            "cuál es la humedad del jardín"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "luminosidad",
+          "samples": [
+            "la luminosidad del jardín",
+            "cuál es la luminosidad del jardín"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "water",
+          "samples": [
+            "el nivel de agua del jardín",
+            "cuál es el nivel de agua del jardín"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "luz",
+          "samples": [
+            "enciende la luz"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "luzoff",
+          "samples": [
+            "apaga la luz"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "arduino"
+    }
+  }
+}
